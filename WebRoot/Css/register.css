@@ -1,0 +1,28 @@
+#logo{height:80px; border-width:0px;}
+#tip{background-color:#eee; text-align:center; padding:10px; font-weight:bold;}
+p {
+    padding-bottom: 15px;
+}
+label {
+    float: left;
+    font-size: 14px;
+    padding-right: 15px;
+    padding-top: 9px;
+    text-align: right;
+    width: 137px;
+}
+p input.pass_reg_input {
+    border-style: solid;
+    border-width: 1px;
+	border-color:#999;
+    font-size: 12px;
+    height: 25px;
+    padding: 0 8px;
+	padding-top:10px;
+    transition-duration: 0.5s;
+    transition-property: all;
+    width: 245px;
+}
+.btn_submit{margin-left:150px; background-image:url('../Images/register_btn.png'); width:98px; height:32px;}
+.fill_right{background-image:url('../Images/pic_Email_ok.gif'); width:15px; height:11px;}
+.fill_error{background-image:url('../Images/bg_email_wrong.gif'); width:159px; height:30px; position:absolute; padding-left:20px; padding-top:10px;}

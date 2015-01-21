@@ -1,0 +1,6 @@
+#user_content{background-color:#000; height:500px; width:100%;}
+#func_display{background-color:#0F0; height:100%; width:12%; float:left;}
+#func_content{background-color:#999; height:100%; width:88%; float:left;}
+#user_pic{ text-align:center; margin-top:5px; margin-left:5px; margin-right:5px; border:inset; border-width:2px; background-color:#eee;}
+#img_user_pic{height:100px; width:100px;}
+.func{ list-style:none; margin-bottom:5px;}

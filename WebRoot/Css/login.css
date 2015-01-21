@@ -1,0 +1,15 @@
+#login_frame{padding:0px; width:410px; height:300px; background-color:#edffd5;position:absolute;border:4px solid #666;}
+body{font-size:13px;} 
+#title{ background-color:#FC3; height:6%; padding:10px; cursor:move;}/* 元素初始状态样式 */
+.divInit{width:390px;height:55px;line-height:55px;padding-left:20px;}
+.txtInit{border:#666 1px solid;padding:3px;background-image:url('../Images/bg_email_input.gif');}
+.spnInit{width:179px;height:40px;line-height:40px;float:right;margin-top:8px;padding-left:10px;background-repeat:no-repeat;}/* 元素丢失焦点样式 */
+.divBlur{background-color:#FEEEC2}
+.txtBlur{border:#666 1px solid;padding:3px;background-image:url('../Images/bg_email_input2.gif');}
+.spnBlur{background-image:url('../Images/bg_email_wrong.gif');}
+.divFocu{background-color:#EDFFD5}/* div获取焦点样式 */
+.spnSucc{background-image:url('../Images/pic_Email_ok.gif');margin-top:20px;}/* 验证成功时span样式 */
+input{width:150px;}
+.loginBtnOver{ background-image:url('../Images/login_btn.png'); width:98px; height:33px;}
+.loginBtnOut{ background-image:url('../Images/login_btn_d.png'); width:98px; height:33px;}
+#closBtn{cursor:pointer;}
